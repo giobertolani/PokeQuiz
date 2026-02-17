@@ -1,6 +1,5 @@
 # POKEQUIZ!
-This is a simple quiz game about Pokémon, the well-known japanese video game. The rules are simple: you have to answer 10 questions before the time runs out otherwise the game will go on by its own and you will get 0 points.
-At the end of the quiz you will get your total score and you could see the chart with the scores of the best players. So let's get started! :D
+Here's the explanation of how I structured and build the game. So let's get started! :D
 
 ### PokeApplication
 I define a class called PokeApplication to launch the game and show its home window. 
@@ -86,4 +85,5 @@ The method return the list full of the infos needed and it will be used in Resul
 
 
 ### Conclusions
+
 This is a simple game created to start practicing my Java programming knowledge in a deeper way. I know that something could be coded better and should be enhanced, but I'm kinda proud of it since it's my first project ever. Hope you like it too! :D
