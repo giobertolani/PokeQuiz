@@ -86,4 +86,5 @@ The method return the list full of the infos needed and it will be used in Resul
 
 ### Conclusions
 
-This is a simple game created to start practicing my Java programming knowledge in a deeper way. I know that something could be coded better and should be enhanced, but I'm kinda proud of it since it's my first project ever. Hope you like it too! :D
+And that's it. I'm aware that something could be coded better and should be enhanced, but for a first time Java project I'm already satisfied. Hope you like it too! :D
+
