@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="410.0" prefWidth="610.0" style="-fx-background-image: url(&quot;file:C:\\Users\\utente\\IdeaProjects\\PokeQuiz\\src\\main\\resources\\com\\giorgia\\pokequiz\\sfondoPika.jpg&quot;);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giorgia.pokequiz.PokeController">
+   <children>
+      <ImageView fitHeight="412.0" fitWidth="612.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/sfondo2.jpg" />
+         </image></ImageView>
+      <Button fx:id="rulesButton" contentDisplay="CENTER" layoutX="45.0" layoutY="190.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: YELLOW; -fx-background-radius: 32; -fx-border-radius: 32;" text="RULES">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Button>
+      <Button fx:id="exitButton" contentDisplay="CENTER" layoutX="45.0" layoutY="290.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: YELLOW; -fx-background-radius: 32; -fx-border-radius: 32;" text="EXIT">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Button>
+      <Button fx:id="playButton" contentDisplay="CENTER" layoutX="45.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" style="-fx-background-color: YELLOW; -fx-background-radius: 32; -fx-border-radius: 32;" text="PLAY NOW!">
+         <font>
+            <Font name="Arial Black" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="20.0" radius="9.5" width="20.0" />
+         </effect>
+      </Button>
+      <Label layoutX="220.0" layoutY="75.0" prefHeight="61.0" prefWidth="363.0" text="Will you know all the answers? Gotta answer'em all!" textFill="#360ccf" wrapText="true">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="255.0" layoutY="5.0" prefHeight="70.0" prefWidth="282.0" text="POKEQUIZ" textFill="#360ccf">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="52.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addNameG" layoutX="145.0" layoutY="364.0" prefHeight="26.0" prefWidth="137.0" />
+      <Label layoutX="15.0" layoutY="365.0" text="Add your name:" textFill="#360ccf">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="nameAdded" layoutX="283.0" layoutY="364.0" mnemonicParsing="false" text="Done!" />
+   </children>
+</AnchorPane>

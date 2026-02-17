@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="490.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.giorgia.pokequiz.QuizController">
+   <children>
+      <ImageView fitHeight="495.0" fitWidth="655.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/pokemon_red.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="34.0" layoutY="52.0" prefHeight="120.0" prefWidth="586.0" style="-fx-background-color: yellow;" text=" Number 1: What's the name of the main character of the anime?" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Button fx:id="optionOne" contentDisplay="CENTER" layoutX="34.0" layoutY="206.0" mnemonicParsing="false" onAction="#optOneClicked" prefHeight="120.0" prefWidth="280.0" style="-fx-background-color: yellow; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 2;" text="Brock" wrapText="true">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button fx:id="optionFour" contentDisplay="CENTER" layoutX="340.0" layoutY="344.0" mnemonicParsing="false" onAction="#optFourClicked" prefHeight="120.0" prefWidth="280.0" style="-fx-background-color: yellow; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 2;" text="Lucy" wrapText="true">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button fx:id="optionThree" contentDisplay="CENTER" layoutX="34.0" layoutY="344.0" mnemonicParsing="false" onAction="#optThreeClicked" prefHeight="120.0" prefWidth="280.0" style="-fx-background-color: yellow; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 2;" text="Prof. Oak" wrapText="true">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Button fx:id="optionTwo" contentDisplay="CENTER" layoutX="340.0" layoutY="206.0" mnemonicParsing="false" onAction="#optTwoClicked" prefHeight="120.0" prefWidth="280.0" style="-fx-background-color: yellow; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 2;" text="Ash Ketchum" wrapText="true">
+         <font>
+            <Font name="Corbel Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="15.0" radius="7.0" width="15.0" />
+         </effect>
+      </Button>
+      <Label fx:id="timeLeft" layoutX="458.0" layoutY="14.0" prefHeight="26.0" prefWidth="161.0" text="Time left: 12 seconds" textFill="#fffcfc" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
